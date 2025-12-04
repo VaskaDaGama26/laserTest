@@ -16,7 +16,7 @@ export default function App() {
       <Process />
       <Equipment />
       <ContactForm />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

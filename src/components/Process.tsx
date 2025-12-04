@@ -10,7 +10,7 @@ const steps = [
   {
     icon: Calculator,
     title: 'Расчёт',
-    description: 'Получите смету за 15 минут'
+    description: 'Получите смету'
   },
   {
     icon: Cog,
@@ -19,8 +19,8 @@ const steps = [
   },
   {
     icon: Truck,
-    title: 'Доставка',
-    description: 'Доставим или организуем самовывоз'
+    title: 'Сдача заказа',
+    description: ''
   }
 ];
 

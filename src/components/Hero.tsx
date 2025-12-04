@@ -13,7 +13,7 @@ export function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <ImageWithFallback
-          src="https://images.unsplash.com/photo-1615378809998-afc205e73bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXNlciUyMGN1dHRpbmclMjBtYWNoaW5lfGVufDF8fHx8MTc2MjU0Mzc4NHww&ixlib=rb-4.1.0&q=80&w=1080"
+          src="/main.jpg"
           alt="Laser cutting machine"
           className="w-full h-full object-cover"
         />
@@ -31,9 +31,10 @@ export function Hero() {
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Small label */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-800/50 border border-gray-700/50 mb-8">
-            <div className="w-2 h-2 bg-[#B22222] rounded-full animate-pulse" />
-            <span className="text-gray-300 text-sm tracking-wide">ВЫСОКОТОЧНЫЕ ТЕХНОЛОГИИ</span>
+          <div className="inline-flex items-center gap-2 px-8 py-2 rounded-full bg-gray-800/50 border border-gray-700/50 mb-8">
+            {/* <div className="w-2 h-2 bg-[#B22222] rounded-full animate-pulse" /> */}
+            <img src="/logo.png" className='rounded-full w-12 h-12' alt="" />
+            <span className="text-gray-300 text-sm tracking-wide">ViAn Company</span>
           </div>
 
           <h1 className="text-white mb-6 tracking-tight">
@@ -41,14 +42,14 @@ export function Hero() {
           </h1>
           
           <p className="text-gray-300 text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
-            Режем акрил, фанеру, кожу и другие материалы по вашим чертежам
+            Режем акрил, фанеру, полистирол, картон и другие материалы по вашим чертежам
           </p>
 
           <Button 
             onClick={scrollToForm}
-            className="bg-[#B22222] hover:bg-[#8B0000] text-white px-8 py-6 text-lg rounded-xl shadow-lg shadow-[#B22222]/20 transition-all hover:shadow-xl hover:shadow-[#B22222]/30 hover:scale-105"
+            className="bg-[#B22222] cursor-pointer hover:bg-[#8B0000] text-white px-8 py-6 text-lg rounded-xl shadow-lg shadow-[#B22222]/20 transition-all hover:shadow-xl hover:shadow-[#B22222]/30 hover:scale-105"
           >
-            Рассчитать стоимость
+            Оставить заявку
             <ChevronRight className="ml-2 w-5 h-5" />
           </Button>
         </div>

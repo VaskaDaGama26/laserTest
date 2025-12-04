@@ -4,7 +4,7 @@ import { Crosshair, Clock, Zap, Maximize2 } from 'lucide-react';
 const benefits = [
   {
     icon: Crosshair,
-    title: 'Точность до 0.1 мм',
+    title: 'Точность',
     description: 'Высокоточное оборудование для идеального результата'
   },
   {
