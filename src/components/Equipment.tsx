@@ -46,7 +46,7 @@ export function Equipment() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="/materials.jpg"
+                src="/materials.webp"
                 alt="Laser cutting equipment"
                 className="w-full h-auto"
               />

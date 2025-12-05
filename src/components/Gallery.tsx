@@ -3,17 +3,17 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const projects = [
   {
-    image: '/acril.png',
+    image: '/acril.webp',
     title: '',
     material: 'Акриловые изделия'
   },
   {
-    image: '/plywood.png',
+    image: '/plywood.webp',
     title: '',
     material: 'Резка фанеры'
   },
   {
-    image: '/carton.png',
+    image: '/carton.webp',
     title: '',
     material: 'Изделия из электрокартона'
   }
